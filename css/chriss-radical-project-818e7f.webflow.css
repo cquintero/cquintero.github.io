@@ -374,7 +374,7 @@ ul {
 }
 
 .feature-image-mask {
-  width: 100%;
+  width: 40%;
   margin-right: 40px;
 }
 
@@ -503,6 +503,10 @@ ul {
 
 .text-block-2 {
   display: inline-block;
+}
+
+.div-block-5 {
+  max-width: 680px;
 }
 
 @media screen and (max-width: 991px) {
