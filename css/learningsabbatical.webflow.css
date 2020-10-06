@@ -178,6 +178,7 @@ ul {
 
 .rich-text-block.interview-body {
   display: inline-block;
+  margin-top: 20px;
 }
 
 .rich-text-block.interview-body li {
@@ -216,7 +217,7 @@ ul {
 }
 
 .centered-container.rich-text-block {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .cards-grid-container {
@@ -271,11 +272,15 @@ ul {
 
 .interview-body {
   max-width: 680px;
-  margin-top: 100px;
+  margin-top: 60px;
   color: #333;
   font-size: 18px;
   line-height: 28px;
   text-align: left;
+}
+
+.interview-body.about {
+  margin-top: 100px;
 }
 
 .how-container {
@@ -350,7 +355,7 @@ ul {
   top: 0%;
   right: 0%;
   bottom: auto;
-  height: 75px;
+  height: 70px;
   padding-bottom: 10px;
   background-color: #fff;
   cursor: pointer;
