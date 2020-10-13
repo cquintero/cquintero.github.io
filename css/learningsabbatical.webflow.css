@@ -259,8 +259,11 @@ figcaption {
   overflow: hidden;
   width: 100%;
   padding-top: 100%;
+  border-bottom-style: none;
   border-bottom-color: #194266;
   border-radius: 50%;
+  -webkit-transition-property: none;
+  transition-property: none;
 }
 
 .cards-image {
