@@ -200,7 +200,7 @@ figcaption {
   border-radius: 6px;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  color: #fff;
+  color: #fdfeff;
   cursor: pointer;
   -o-object-fit: fill;
   object-fit: fill;
@@ -209,6 +209,10 @@ figcaption {
 .btn-primary:hover {
   box-shadow: 1px 1px 1px 0 #5f5f5f;
   color: #fdfdfd;
+}
+
+.btn-primary:visited {
+  color: #f8f8f8;
 }
 
 .div-block-3 {
