@@ -336,7 +336,7 @@ figcaption {
   padding-bottom: 100px;
 }
 
-.flex-container {
+.container {
   display: block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -575,6 +575,7 @@ figcaption {
 
 .heading {
   display: block;
+  max-width: 80%;
 }
 
 .image-5 {
@@ -582,13 +583,13 @@ figcaption {
   max-width: 20%;
 }
 
-.text-block {
-  margin-bottom: 15px;
-}
-
 .offsetfix {
   height: 75px;
   margin-top: -75px;
+}
+
+.homepage-text {
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -646,7 +647,7 @@ figcaption {
   .feature-section {
     padding: 40px 20px;
   }
-  .flex-container {
+  .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
