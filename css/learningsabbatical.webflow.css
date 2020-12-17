@@ -445,6 +445,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  line-height: 100%;
 }
 
 .footer-link {
@@ -513,10 +514,10 @@ figcaption {
 }
 
 .logo {
-  top: auto;
+  top: 13px;
   bottom: auto;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: auto;
   margin-bottom: auto;
   float: none;
   grid-auto-columns: 1fr;
